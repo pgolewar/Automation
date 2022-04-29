@@ -18,7 +18,7 @@ pipeline {
         stage('Compile') {
             steps {
                 echo 'Compiling....'
-                mvn "compile"
+                
             }
             }
         stage('Deploy') {
