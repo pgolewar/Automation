@@ -20,21 +20,22 @@ public class BaseClass {
 	
   public void beforeTest() {
 	  
-	  System.setProperty("webdriver.chrome.driver","C:\\Automation\\TestingWorkplace\\Automation\\BrowsersDriver\\chromedriver.exe");
-  WebDriver driver  = new ChromeDriver();
+	 // System.setProperty("webdriver.chrome.driver","C:\\Automation\\TestingWorkplace\\Automation\\BrowsersDriver\\chromedriver.exe");
+  //WebDriver driver  = new ChromeDriver();
 	  
 //	// Set the driver path
 //	  System.setProperty("webdriver.edge.driver", "C:\\Automation\\TestingWorkplace\\Automation\\BrowsersDriver\\msedgedriver.exe");
 //
 //	  // Start Edge Session
+	  
 //	   driver = new EdgeDriver();
 
 	  
 	  
 	  
-    driver.get("https://parabank.parasoft.com/");
-    driver.manage().window().maximize();
-    driver.manage().timeouts().implicitlyWait(2000, TimeUnit.MILLISECONDS);
+//    driver.get("https://parabank.parasoft.com/");
+//    driver.manage().window().maximize();
+//    driver.manage().timeouts().implicitlyWait(2000, TimeUnit.MILLISECONDS);
 
 
   }

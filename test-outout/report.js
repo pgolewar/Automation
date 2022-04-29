@@ -43,35 +43,35 @@ formatter.match({
   "location": "LoginStepDefination.user_is_on_login_page_of_parabank()"
 });
 formatter.result({
-  "duration": 4967461800,
+  "duration": 8028021200,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefination.title_of_login_page()"
 });
 formatter.result({
-  "duration": 3598131700,
+  "duration": 3941429000,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefination.user_Enter_the_username_and_password()"
 });
 formatter.result({
-  "duration": 208700700,
+  "duration": 194537700,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefination.user_clicks_on_login_button()"
 });
 formatter.result({
-  "duration": 499352800,
+  "duration": 1432286700,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefination.close_the_browser()"
 });
 formatter.result({
-  "duration": 112408200,
+  "duration": 4176378600,
   "status": "passed"
 });
 });
