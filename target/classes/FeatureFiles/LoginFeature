@@ -1,0 +1,12 @@
+Feature: parabank login feature
+
+Scenario: test invalid login scenario 
+
+Given user is on login page of parabank
+When title of login page
+Then user Enter the username and password
+Then user click on login button
+Then close the browser
+
+
+  
